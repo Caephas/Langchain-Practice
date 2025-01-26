@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+.env/
+*.venv/
+env/
+venv/
+ENV/
+.venv/
+
+# Environment variables file
+.env
+
+# Poetry-related files
+poetry.lock
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Ignore generated metadata or data files
+rag/database/
+rag/db/
+
+# Cache and temporary files
+*.cache
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore compiled shared libraries
+*.so
+*.dylib
+*.dll
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore other system files
+Thumbs.db
